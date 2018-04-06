@@ -302,22 +302,14 @@ class DecisionNode:
         self.data_split()
         self.compute_split_counts()
 
-
-# my_node = DecisionNode(X, Y)
-# my_node.start()
-#
-
-# Quiero ver si sí sirve
-
-
-data = pd.read_csv(r"C:\Users\JuanEduardo\Google Drive\Machine Learning\train.csv")
-data = pd.DataFrame(data)
-data = data.dropna()
-Y = data.ix[:, "Survived"]
-variables = ["Pclass", "Sex", "Age", "SibSp", "Parch"]
-X = data[variables]
-X.ix[X.ix[:, "Sex"] == "male", "Sex"] = 1
-X.ix[X.ix[:, "Sex"] == "female", "Sex"] = 0
+# data = pd.read_csv(r"C:\Users\JuanEduardo\Google Drive\Machine Learning\train.csv")
+# data = pd.DataFrame(data)
+# data = data.dropna()
+# Y = data.ix[:, "Survived"]
+# variables = ["Pclass", "Sex", "Age", "SibSp", "Parch"]
+# X = data[variables]
+# X.ix[X.ix[:, "Sex"] == "male", "Sex"] = 1
+# X.ix[X.ix[:, "Sex"] == "female", "Sex"] = 0
 
 my_node = DecisionNode(X, Y)
 my_node.start()
