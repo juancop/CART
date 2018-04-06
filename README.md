@@ -13,7 +13,7 @@ In this approach I'm trying to include them.
 # What have I accomplished yet?
 
 - I created a class that decides the best split overall. It returns its Gini Index, the decision rule, the observations that follow the rule and the ones that don't, and many more attributes. 
-- This class handles categorical data as it is described in the books: ![equation](http://latex.codecogs.com/gif.latex?2%5E%7Bq-1%7D-1) possible splits (for q categories). 
+- This class handles categorical data as it is described in the books: ![equation](http://latex.codecogs.com/gif.latex?2%5E%7Bq-1%7D-1) possible splits (for ![equation](http://latex.codecogs.com/gif.latex?q) categories). 
 
 # What follows next?
 
