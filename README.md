@@ -13,7 +13,7 @@ In this approach I'm trying to include them.
 # What have I accomplished yet?
 
 - I created a class that decides the best split overall. It returns its Gini Index, the decision rule, the observations that follow the rule and the ones that don't, and many more attributes. 
-- This class handles categorical data as it is described in the books: $2^{q-1}-1$ possible combinations. 
+- This class handles categorical data as it is described in the books: $$2^{q-1}-1$$ possible splits. 
 
 # What follows next?
 
